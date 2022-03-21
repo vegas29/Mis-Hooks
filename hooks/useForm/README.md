@@ -4,9 +4,9 @@ Ejemplo:
 
 ```
     const initialForm = {
-        name: '',
-        age:23,
-        email:''
+        name: 'Alejandro',
+        age: 23,
+        email:'email@gmail.com'
     }
-    cons [Values, handleInputChange, reset] = useForm(initialForm);
+    cons [formValues, handleInputChange, reset] = useForm(initialForm);
 ```
